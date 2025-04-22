@@ -1,0 +1,58 @@
+Graph 
+1. multiple edge
+2. multiple way
+3. cycle
+4. edge driection 
+graph>>tree>Bt>Bst
+
+Types of Graph
+*Driection:
+	1.Directed
+	2.Undirected  
+*Weight:
+    1.Weighted
+    2.Unweighted
+*Cycle:
+    1.Cycle (Undirected  hole at lest 3 ta node lagbe  & Directed e 2 ta hole e hobe)
+    2.Acyclic  
+
+Real life example of graph:
+1. Google map shortcut way
+2. Facebook mutual friend
+
+Input store graph:
+1. Adjacency Matrix   
+2. Adjacency list
+3. Edge list
+
+// chack 2 node connected or not:
+    1. Adjacency Matrix -> O(1) -> use this  
+    2. Adjacency list -> O(N)
+    3. Edge list  ->O(N) 
+// all the connected node from a node:
+    Adjacency lis ->use this
+
+// need all edge
+    Edge list ->use this
+
+Traversal:
+1. BFS ->level wise short path 
+2. DFS  -> Depth-wish use any path
+
+2D Grid:
+A 2D grid is a two-dimensional array of points or nodes that can be used 
+for a variety of purposes, including computer graphics, scientific calculations, and 
+representing sample spaces.
+
+up->i-1,j-> -1,0
+down->i+1,j -> 1,0
+left->i,j-1 -> 0,-1
+right->i,j+1 -> 0,1
+
+
+Cycle Detection
+-Undirected: atlest 3 node 
+	-BFS
+	-DFS
+-Directed: 2 node
+	-DFS
